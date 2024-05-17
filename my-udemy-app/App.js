@@ -35,8 +35,10 @@ export default function App() {
               </View>
             );
           }} 
-          keyExtractor={(item, index) => return item.id}
-          alwaysBounceHorizontal={false} 
+          keyExtractor={(item, index) => {
+            return item.id}
+          }
+          alwaysBounceHorizontal={false}
         />
       </View>
     </View>
